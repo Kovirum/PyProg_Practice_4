@@ -10,7 +10,7 @@ if __name__ == "__main__":
     if len(A) != 10:
         print("Неверный размер списка", file=sys.stderr)
         exit(1)
-    
+
     # Найти искомую сумму.
     s = 0
     for item in A:
